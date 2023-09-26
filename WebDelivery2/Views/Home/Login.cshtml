@@ -32,9 +32,14 @@
             <button type="submit" class="btn">Login</button>
 
             <div class="register-link">
-                <p>Don't have an account?<a href="#"> Register</a></p>
+                <p>Don't have an account?<a href="/Home/Register"> Register</a></p>
             </div>
         </form>
     </div>
+    <script>
+        signUp.addEventListener("click", () => {
+            container.classList.add("active");
+        });
+    </script>
 </body>
 </html>

@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login form</title>
+    <title>register form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,8 +30,13 @@
                 <input type="text" placeholder="Số Điện Thoại" required>
             </div>
             <br />
-            <button type="submit" class="btn">Register</button>
+            <button type="submit" class="btn">Sign up</button>
         </form>
     </div>
+    <script>
+        signup.addEventListener("click", () => {
+            container.classList.remove("active");
+        });
+    </script>
 </body>
 </html>
