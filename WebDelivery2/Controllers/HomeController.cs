@@ -12,24 +12,25 @@ namespace WebDelivery2.Controllers
         {
             _logger = logger;
         }
-
-        /*public IActionResult Index()
-        {
-            return View();
-        }*/
+   
         public IActionResult Login()
         {
             return View();
         }
 
-
-        public IActionResult Privacy()
+            public IActionResult Privacy()
         {
             return View();
         }
         public IActionResult Register()
         {
             return View();
+        }
+
+        public IActionResult Admin()
+        {
+            return View();
+
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

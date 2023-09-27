@@ -1,0 +1,11 @@
+﻿.header {
+    background-color: springgreen;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body {
+    margin: 0;
+}

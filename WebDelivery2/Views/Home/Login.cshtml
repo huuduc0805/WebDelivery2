@@ -16,12 +16,13 @@
 <body>
     <div class="wrapper">
         <form action="">
-            <h1>Login </h1>
+            <h1>Đăng nhập </h1>
+            <h4 style="color:red; text-align:center"></h4>
             <div class="input-box">
-                <input type="text" placeholder="Username" required>
-            </div>
+                <input type="text" placeholder="Username" required> 
+            </div>  
             <div class="input-box">
-                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Password" required> 
             </div>
             <div class="remember-forgot">
                 <label>
@@ -30,6 +31,7 @@
                 <a href="#">Forgot password?</a>
             </div>
             <button type="submit" class="btn">Login</button>
+        
 
             <div class="register-link">
                 <p>Don't have an account?<a href="/Home/Register"> Register</a></p>
@@ -37,7 +39,7 @@
         </form>
     </div>
     <script>
-        signUp.addEventListener("click", () => {
+        login.addEventListener("click", () => {
             container.classList.add("active");
         });
     </script>
